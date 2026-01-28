@@ -1,7 +1,7 @@
 #! /bin/bash
 # understanding the variable storage
-name1 = "suresh"
-name2 = "ramesh"
+name1="suresh"
+name2="ramesh"
 echo "hi $name1 how are u?"
 echo "im fine $name2 thank you"
 echo "its nice talking to you $name1"
