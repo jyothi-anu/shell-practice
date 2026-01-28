@@ -4,4 +4,4 @@ start_time=$(date)
 echo "scripted excuted at:"$start_time
 sleep 10
 #end_time=$(date)
-echo "script ended at="$end_time
+echo "script ended at="$(date)
