@@ -1,4 +1,7 @@
 #! /bin/bash
 
-time=$(date)
-echo "scripted excuted at:"$time
+start_time=$(date)
+echo "scripted excuted at:"$start_time
+sleep 10
+#end_time=$(date)
+echo "script ended at="$end_time
