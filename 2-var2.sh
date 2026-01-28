@@ -4,5 +4,5 @@ name1="jyothi";number=25;course="aws and devops"
 echo "$name1 of age$number taking $course"
 #**********************************************************************
 #alwys use capital for environment variabls
-echo "show me current directory$PWD and $PATH and $UNAME"
+echo -e "show me current directory $PWD\n and $PATH\n and $UNAME\n"
 #***********************************************************************
