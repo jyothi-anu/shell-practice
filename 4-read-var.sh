@@ -4,5 +4,7 @@ echo "ENTER NAME"
 read USER_NAME
 echo "user name:" $USER_NAME
 echo "ENTER PASSWORD"
-read -s  PASSWORD
+read -s PASSWORD
 echo "password is:"$PASSWORD
+read -p CITY
+echo "enter you city",$CITY
