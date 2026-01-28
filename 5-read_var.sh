@@ -2,7 +2,11 @@
 echo "enter user name"
 read user 
 echo "your name="$user
-read -s pass "enter your password"
+
+echo "enter password"
+read -s  pass
 echo "your password="$pass
-read -p "enter city" city
+
+echo "enter city"
+read -p city
 echo "city=$city"
