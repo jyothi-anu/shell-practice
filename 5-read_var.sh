@@ -8,5 +8,5 @@ read -s  pass
 echo "your password="$pass
 
 echo "enter city"
-read -p city
+read city
 echo "city=$city"
