@@ -1,0 +1,4 @@
+#! /bin/bash
+
+time=$(date)
+echo "scripted excuted at:"$time
