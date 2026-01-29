@@ -1,6 +1,7 @@
 #! /bin/bash
-echo -e "enter ur age= \n and country= "
-read age country
+echo  "enter ur age"
+read age 
+echo "enter ur country"
 if [ $age -ge 18 ] && [ $country -eq "india" ]; then
     echo "ur elible to vote in india"
 else 
