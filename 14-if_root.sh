@@ -6,5 +6,9 @@ if [ $user -ne 0 ]; then
     exit 1
 fi
 
-echo "installimg nginx"
-dnf install nginx -y
+dnf install mysql -y 
+if [ $? eq 0 ]; then
+    echo "successfully installed mysql"
+else
+    echo "failed"
+fi
