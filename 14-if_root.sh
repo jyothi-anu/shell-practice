@@ -6,7 +6,7 @@ if [ $user -ne 0 ]; then
     exit 1
 fi
 
-dnf install mysql -y 
+dnff install mysql -y 
 if [ $? -eq 0 ]; then
     echo "successfully installed mysql"
 else
