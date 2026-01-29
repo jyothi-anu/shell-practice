@@ -1,5 +1,5 @@
 #! /bin/bash
-echo "enter the number to calculate"
+#echo "enter the number to calculate"
 #read $1
 num=$1
 if [ $num -ge 10 ] ; then
