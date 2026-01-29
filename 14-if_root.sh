@@ -5,3 +5,5 @@ if [ $user -ne 0 ]; then
     echo "ur not allowed to install"
 fi
 
+echo "installimg nginx
+dnf install nginx -y
