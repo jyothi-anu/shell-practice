@@ -5,4 +5,4 @@ fruits={"apple","orange","kiwi"}
 echo "all args passed to array=$@"
 echo "no of args prsent=$#"
 echo "frutis are=${fruits[@]}"
-echo "frui1= ${(fruits[0])}"
+echo "frui1= ${fruits[0]}"
