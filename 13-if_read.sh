@@ -1,6 +1,6 @@
 #! /bin/bash
 echo "enter the number to calculate"
-read $1
+#read $1
 num=$1
 if [ $num -ge 10 ] ; then
 echo "entered num is greater / equal"
