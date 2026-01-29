@@ -1,6 +1,6 @@
 #! /bin.bash
 #######list of strings will be stored in array####
-FRUITS=("apple","orange","kiwi")
+FRUITS=("apple" "orange" "kiwi")
 #echo "fruits=$fruits"
 echo "all args passed to array=$@"
 echo "no of args prsent=$#"
