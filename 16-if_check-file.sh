@@ -1,7 +1,7 @@
 #! /bin/bash
-dir="/etc/passwd"
-if [ -d $dir ]; then
-    echo "directory exist"
+file="/etc/passwd"
+if [ -f $file ]; then
+    echo "file exist"
 else
-    echo "not exist"
+    echo "file not exist"
 fi
