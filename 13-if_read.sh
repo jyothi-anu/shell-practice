@@ -1,7 +1,7 @@
 #! /bin/bash
 echo "enter the number to calculate"
 read num 
-if [ $num -ge 10] ; then
+if [ $num -ge 10 ] ; then
 echo "entered num is greater / equal"
 else
 echo "entered num is smaller"
